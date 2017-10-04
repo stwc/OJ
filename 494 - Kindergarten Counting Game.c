@@ -15,8 +15,9 @@ int main()
                 isword = 0;
             }
         }
+        // If the last character is a letter.
+        count += isword;
         printf("%d\n", count);
     }
-
     return 0;    
 }
