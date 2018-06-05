@@ -1,3 +1,3 @@
 # OJ
-Some UVa or ZeroJudge practices.
+Some UVa and ZeroJudge practices.
 Nothine else.
