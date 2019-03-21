@@ -1,3 +1,3 @@
 # OJ
-Some UVa and ZeroJudge practices.
-Nothine else.
+
+Try to solve some trivial problems.  
