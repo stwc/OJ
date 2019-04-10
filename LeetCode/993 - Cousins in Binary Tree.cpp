@@ -15,7 +15,8 @@ public:
         pair<int, TreeNode *> nodeX(0, NULL), nodeY(0, NULL);
         dfs(nodeX, root, x, 0);
         dfs(nodeY, root, y, 0);
-        cout << "depthX=" << nodeX.first << ", depthY=" << nodeY.first << endl;
+        // cout << "depthX=" << nodeX.first << ", depthY=" << nodeY.first <<
+        // endl;
         if (nodeX.first == nodeY.first && nodeX.second != nodeY.second)
             return true;
         return false;
