@@ -12,8 +12,8 @@ public:
         while (num != 1) {
             rem = (num % 2) ^ 1;
             sum = sum + rem * pos;
-            num /= 2;
-            pos *= 2;
+            num >>= 1;
+            pos <<= 1;
         }
         return sum;
     }
