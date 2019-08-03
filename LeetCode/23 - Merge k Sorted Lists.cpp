@@ -1,4 +1,4 @@
-// Method: Brute Force, Time complexity: O(NlogN)
+// Method: Brute Force, Time complexity: O(kN)
 // It can be optimized by using priority queue
 
 /**
