@@ -1,4 +1,4 @@
-// Method1: diameter = max{every node's (lh + rh) while the path pass the node}
+// Method1: diameter = max{each node's (lh + rh) while the path pass the node}
 // Method2: run BFS twice
 
 /**
