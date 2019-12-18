@@ -1,7 +1,7 @@
 ECHO   = /bin/echo -e
-CFLAGS = --std=c++11 -Wall -Wshadow -O2
+CFLAGS = -std=c++11 -Wall -Wshadow -O2
 EXEC = test
-OBJS = hello.o
+OBJS = tmp.o
 
 all: ${EXEC}
 
