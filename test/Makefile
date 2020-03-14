@@ -12,6 +12,9 @@ all: ${EXEC}
 ${EXEC}: $(OBJS)
 	$(CXX) -o $@ $^
 
+debug: CFLAGS += -DDEBUG
+debug: all
+
 .PHONY: clean
 clean:
 	$(RM) ${EXEC} *.o
